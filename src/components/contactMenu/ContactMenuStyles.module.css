@@ -1,0 +1,16 @@
+
+#body{
+    margin: 0px 0px 0px;
+}
+
+.contactMenuContainer{
+    list-style: none;
+    margin: 0px 0px 0px;
+    padding: 0px 0px 0px;
+    position: absolute;
+    bottom: 230px
+}
+
+.contactMenuItem{
+    padding: 15px;
+}
