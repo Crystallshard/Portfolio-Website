@@ -8,7 +8,7 @@ import { StaticImage} from "gatsby-plugin-image";
 import { Link } from "gatsby";
 
 const NavigationLinks = () => {
-    const STARSIZE = 15;
+    const STARSIZE = 25;
 
     return (
         <>

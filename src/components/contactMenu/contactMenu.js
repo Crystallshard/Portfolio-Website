@@ -7,7 +7,7 @@ import { StaticImage} from "gatsby-plugin-image";
 import { Link } from "gatsby";
 
 const ContactMenu = () => {
-    const IMGSIZE = 50;
+    const IMGSIZE = 45;
 
     return (
         <>
