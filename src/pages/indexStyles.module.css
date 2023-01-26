@@ -21,7 +21,14 @@
     margin: auto;
 }
 
-.content{
+.aboutContainer{
+    position: relative;
+    width: 1000px;
+    margin: auto;
+    top: 500px;
+}
+
+.firstName{
     margin: 0;
     position: relative;
     top: 55%;
@@ -36,4 +43,9 @@
     left: 75px;
     /* text-align: left; */
     font-size: 20px;
+}
+
+.aboutText{
+    position: relative;
+    
 }
