@@ -1,17 +1,19 @@
 *::-webkit-scrollbar{
     margin: 0px 0px 0px;
     display: none;
+    
+    
 
 }
-
 
 .main{
     margin: 50px 80px 0px;
     
+   height: 900px;
 }
 
 .Stars{
-    position: absolute;
+    position: fixed;
 }
 
 .contentContainer{
@@ -26,6 +28,7 @@
     width: 1000px;
     margin: auto;
     top: 500px;
+
 }
 
 .firstName{
@@ -48,4 +51,9 @@
 .aboutText{
     position: relative;
     
+}
+
+.NavigationLinks {
+    position: sticky;
+    top: 0;
 }
