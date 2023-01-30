@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK&display=swap');
+
 *::-webkit-scrollbar{
     margin: 0px 0px 0px;
     display: none;
@@ -5,15 +7,21 @@
     
 
 }
-
+*{
+    font-family: 'Noto Sans HK', sans-serif;
+}
+#body{
+    
+}
 .main{
     margin: 50px 80px 0px;
     
-   height: 900px;
+    min-height: 2000px;
 }
 
 .Stars{
     position: fixed;
+    left: 60px;
 }
 
 .contentContainer{
@@ -22,13 +30,18 @@
     width: 1000px;
     margin: auto;
 }
+.about{
+    margin-bottom: 0px;
+    position: relative;
+    top: 29px;
+}
 
 .aboutContainer{
     position: relative;
     width: 1000px;
     margin: auto;
-    top: 500px;
-
+    top: 420px;
+    
 }
 
 .firstName{
@@ -56,4 +69,15 @@
 .NavigationLinks {
     position: sticky;
     top: 0;
+}
+
+.aboutList{
+    list-style: none;
+    display: flex;
+    padding: 0px;
+    font-size: 14px;
+}
+.portContainer{
+    position: relative;
+    bottom: 6%;
 }
